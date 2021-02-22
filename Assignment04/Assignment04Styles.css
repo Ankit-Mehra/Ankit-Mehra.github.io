@@ -1,0 +1,83 @@
+﻿h1 {
+	background-image: url('images/CC50thAnniversary.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: normal;
+	margin: auto;
+	padding-left: 250px;
+	background-color: #E4EC84;
+	height: 150px;
+	padding-top: 50px;
+	text-align: center;
+}
+}
+fieldset {
+	padding: 30px;
+	margin: 20px;
+	border-style: ridge;
+	border-radius: 15px;
+	box-shadow: 1.5px 1.5px 1.5px #C0C0C0;
+}
+legend{
+	text-align: center;
+	font-weight: bold;
+}
+body {
+	background-size: 180px 400px;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6A6500;
+	background-image: url('images/Centennial_college_logo.png');
+	background-color: #E4EC84;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+}
+#allpage {
+	width: 940px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #CBEEA8;
+	border: medium ridge #EBE385;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	background-image: url('images/Centennial_college_logo.png');
+}
+#Copyright {
+	text-align: center;
+	text-decoration: none;
+	color: #837E14;
+
+}
+#sites {
+	text-align: center;
+	text-decoration: none;
+	color: #837E14;
+}
+label {
+	width: 255px;
+	float: left;
+	text-align: left;
+}
+fieldset {
+	border-style: ridge;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #CCCCCC;
+}
+#college { text-decoration: none;
+	color: #837E14;
+}
+a {
+	color: #837E14;
+	text-decoration: none;
+	
+}
+#thank {
+	text-align: center;
+	text-decoration: none;
+	color: #837E14;
+}
+}
+
+

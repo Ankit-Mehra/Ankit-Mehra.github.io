@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<!--Created by Ankit Mehra created on Nov 12,2020-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week09-html forms</title>
+<meta content="HTML FORMS, COMP213" name="keywords">
+<meta content="Example of html forms" name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1><span lang="en-ca">Centinnial College-Registration form</span>
+	</h1>
+</header>
+<main>
+<form action="mailto" method="post">
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">First Name:</span></td>
+			<td><input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">Last Name:</span></td>
+			<td><input name="txtLastName" size="25" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">Email: 			</span></td>
+			<td><input name="txtEmail" size="30" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">CCreate PWD:</span></td>
+			<td>
+			<input name="txtCreatePwd" size="16" tabindex="7" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">Confirm PWD:</span></td>
+			<td>
+			<input name="txtConfirmPWD" size="16" tabindex="9" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">Gender:</span></td>
+			<td>
+			<input checked="true" name="opGender" tabindex="11" type="radio" value="M"><span lang="en-ca">M</span><input name="opGender" tabindex="13" type="radio" value="F"><span lang="en-ca">F</span><input name="opGender" tabindex="15" type="radio" value="X"><span lang="en-ca">X</span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">Eductaion:</span></td>
+			<td>
+			<input checked="true" name="optEd" tabindex="17" type="radio" value="sec"><span lang="en-ca">Secondary</span><input name="optEd" tabindex="19" type="radio" value="college"><span lang="en-ca">College</span><input name="optEd" tabindex="21" type="radio" value="ugrad"><span lang="en-ca">Undergrad</span><input name="optEd" tabindex="23" type="radio" value="grad"><span lang="en-ca">Grad</span><input name="optEd" tabindex="25" type="radio" value="pgrad"><span lang="en-ca">PostGrad</span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">Computer Knowledge:</span></td>
+			<td><input name="checkOs" tabindex="27" type="checkbox" value="os"><span lang="en-ca">OS
+			</span>
+			<input name="checkNet" tabindex="29" type="checkbox" value="net"><span lang="en-ca">Networking</span><input name="chkProg" tabindex="31" type="checkbox" value="prog"><span lang="en-ca">Programming
+			</span>
+			<input name="chkWeb" tabindex="33" type="checkbox" value="web"><span lang="en-ca">Web-Design</span><input name="chkDb" tabindex="35" type="checkbox" value="Db"><span lang="en-ca">DB</span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-ca">SSelect Courses:</span></td>
+			<td>
+			<select multiple="multiple" name="lstSelectCourses" size="4" tabindex="37">
+			<option value="COMP213">COMP213- Web Interface Design</option>
+			<option value="COMP125">COMP125-Client Side Development</option>
+			<option value="COMP100">COMP100- Programming-1</option>
+			<option value="COMP225">COMP225-Systems-1</option>
+			<option value="COMP229">COMP229- Server Side Development</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td style="height: 165px" class="fieldLabel"><span lang="en-ca">Special Requests:
+			</span></td>
+			<td style="height: 165px">
+			<textarea cols="50" name="txtSpecialReqest" rows="8" tabindex="37">...Please lets us know any special learning needs you may have (assited note taking, closed captioning, etc ..)</textarea></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">
+			<input name="btnSubmit" tabindex="93" type="submit" value="Complete Registration Now"></td>
+			<td>
+			<input name="btnReset" tabindex="41" type="reset" value="Clear Form"></td>
+		</tr>
+	</table>
+</form>
+</main>
+<footer>
+<p id="copyright">&copy;&nbsp;copyright-Ankit Mehra-COMP213&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<a id="home" href="../index.html"><b>Back to index</b></a>
+</p>
+
+</footer>
+</div>
+</body>
+
+</html>

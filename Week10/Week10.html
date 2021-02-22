@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<!--Created by: Ankit Mehra - Created on: Nov 25, 2020-->
+<html lang="en">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Class Example Week 09 - HTML Forms</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Example of using HTML forms." name="description">
+<link href="Week10Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page">
+<header>
+	<h1> Centennial College - Registration Form</h1>
+</header>
+<main>
+<form action="mailto:jdoe37@my.centennialcollege.ca" method="post">
+<fieldset>
+<legend>Personal Info</legend>
+	<label>First Name:</label><input name="txtFirstName" size="25" tabindex="1" type="text"><br>
+	<label>Last Name:</label><input name="txtLastName" size="25" tabindex="3" type="text"><br>
+	<label>Email:</label><input name="txtEmail" size="30" tabindex="5" type="email"required ="required" placeholder="someone@someplace.ca"><br>
+	<label>Create PWD:</label><input name="txtCreatePwd" size="16" tabindex="7" type="password"><br>
+	<label>Confirm PWD:</label><input name="txtConfirmPwd" size="16" tabindex="9" type="password"><br>
+	<label>Gender:</label><input name="optGender" tabindex="11" type="radio" value="M">M<input name="optGender" tabindex="13" type="radio" value="F">F<input name="optGender" tabindex="15" type="radio" value="X">X<br>
+	<label>Favorite Color:</label><input name="txtcolor" tabindex="16" type="color"><br>
+	</fieldset>
+	<fieldset>
+	<legend>Education Info</legend>
+	<label>Education:</label><input name="optEd" tabindex="17" type="radio" value="Sec">Secondary<input name="optEd" tabindex="19" type="radio" value="Col">College<input name="optEd" tabindex="21" type="radio" value="Ugrad">Undergrad<input name="optEd" tabindex="23" type="radio" value="Grad">Graduate<input name="optEd" tabindex="25" type="radio" value="Pgrad">Postgraduate<br>
+	<label>Computer Knowledge:</label><input name="chkOS" tabindex="27" type="checkbox" value="OS">OS<input name="chkNet" tabindex="29" type="checkbox" value="Net">Networking<input name="chkProg" tabindex="31" type="checkbox" value="Prog">Programming<input name="chkWeb" tabindex="33" type="checkbox" value="Web">Web 
+	Design<input name="chkDB" tabindex="35" type="checkbox" value="DB">DB<br>
+	<label>Select Courses:</label>
+	<select name="lstCourses" multiple="multiple" size="4" tabindex="37">
+	<option value="COMP100">COMP100 Programming I</option>
+	<option value="COMP125">COMP125 Client Side Development</option>
+	<option value="COMP213">COMP213 Web Interface Design</option>
+	<option value="COMP225">COMP225 Systems I</option>
+	<option value="COMP229">COMP229 Server Side Development</option>
+	</select>
+	<br><label>Start Date:</label> 
+	<input name="txtStartDate" tabindex="38" type="date"><br>
+	<label>Special Requests:</label><textarea cols="50" name="txtSpecialReq" rows="7" tabindex="39">--Please let us know about your special learning needs (e.g. closed captioning, note taking, video transcripts, etc.)--</textarea><br>
+	<label>
+	<input name="btnSubmit" tabindex="41" type="submit" value="Register Now"></label>
+	<input name="btnReset" tabindex="43" type="reset" value="Start Again">
+</fieldset>
+</form>
+</main>
+<footer>
+<p id="Copyright">&copy;&nbsp;Copyright Ankit Mehra- COMP213&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<a id="home" href="../index.html"><b>Back to index</b></a></p>
+</footer>
+</div>
+</body>
+</html>

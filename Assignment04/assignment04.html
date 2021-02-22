@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en-ca">
+<!-- Created by Ankit Mehra on Nov 29, 2020-->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment-04</title>
+<meta content="HTML Forms " name="description">
+<link href="Assignment04Styles.css" rel="stylesheet" type="text/css">
+</head>
+<body id="allpage">
+<div>
+<header>
+	<h1>
+	<a id="college" href="https://www.centennialcollege.ca/"><strong><i>Centennial College</i> </strong><br>
+	<i>Continuing Education Course/ Instructor Evaluation</i></a></h1>
+</header>
+<main>
+<form action="mailto:jdoe37@my.centennialcollege.ca" method="post">
+<fieldset>
+<legend><i>COURSE INFO</i></legend>
+<label>Course Name/ Code:</label>
+<select multiple="multiple" name="courseNames " style="width: 282px" tabindex="2">
+<option>Programming 01</option>
+<option>Statistics and Probability</option>
+<option>Natural Language Processing</option>
+<option>Introduction to Machine Learning</option>
+<option>Data Analysis</option>
+<option>Web Design</option>
+</select>
+<br><br>
+<label>Semester:</label><input checked="checked" name="Sem"tabindex="5" type="radio" value="F">Fall<input name="Sem" tabindex="6" type="radio" value="W">Winter<input name="Sem"tabindex="8" type="radio" value="SS">Spring/Summer<br><br>
+<label>Year:</label><input name="year" tabindex="10" type="date"><br><br>
+<label>Instructor Name:</label><input name="instructor" tabindex="11" type="text"><br>
+</fieldset>
+<fieldset>
+<legend><i>INSTRUCTOR</i></legend>
+<strong>How would you rate the instructor's:</strong><br>
+1. <b>Knowledge</b> of subject?<br>
+<input checked="checked" name="Knowledge" tabindex="12" type="radio" value="E">Excellent
+<input name="Knowledge"  tabindex="14" type="radio" value="G">Good<input name="Knowledge" tabindex="16" type="radio" value="F">Fair<input name="Knowledge" tabindex="18" type="radio" value="N">Not 
+Satisfactory<br>
+2.<b> helpfullness?</b><br>
+<input checked="checked" name="help" tabindex="20" type="radio" value="E">Excellent
+<input name="help"  tabindex="22" type="radio" value="G">Good<input name="help" tabindex="24" type="radio" value="F">Fair<input name="help" tabindex="26" type="radio" value="N">Not 
+Satisfactory<br>
+3.<b> Courtesy and respect</b> for all students?<br>
+<input checked="checked" name="respect" tabindex="28" type="radio" value="E">Excellent
+<input name="respect"  tabindex="30" type="radio" value="G">Good
+<input name="respect" tabindex="32" type="radio" value="F">
+Fair<input name="respect" tabindex="34" type="radio" value="N">Not 
+Satisfactory<br>
+4.<b> Communication</b> skills?<br>
+<input checked="checked" name="Communication" tabindex="28" type="radio" value="E">Excellent
+<input name="Communication" tabindex="30" type="radio" value="G">Good
+<input name="Communication" tabindex="32" type="radio" value="F">Fair
+<input name="Communication" tabindex="34" type="radio" value="N">Not 
+Satisfactory<br>
+5. overall <b>performance?</b><br>
+<input checked="checked" name="perfor" tabindex="36" type="radio" value="E">Excellent
+<input name="perfor" tabindex="38" type="radio" value="G">Good<input name="perfor" tabindex="40" type="radio" value="F">Fair<input name="perfor" tabindex="42" type="radio" value="N">Not 
+Satisfactory<br>
+</fieldset>
+<fieldset>
+<legend><i>COURSE</i></legend>
+6. How would you rate the  <b>course materials?</b><br>
+<input checked="checked" name="material" tabindex="44" type="radio" value="E">Excellent
+<input name="material" tabindex="46" type="radio" value="G">Good<input name="material" tabindex="48" type="radio" value="F">Fair<input name="material" tabindex="50" type="radio" value="N">Not 
+Satisfactory<br>
+7. How much did this course meet your  <b>expectation?</b><br>
+<input checked="checked" name="expectation" tabindex="52" type="radio" value="E">Excellent
+<input name="expectation" tabindex="54" type="radio" value="G">Good<input name="expectation" tabindex="56" type="radio" value="F">Fair<input name="expectation" tabindex="58" type="radio" value="N">Not 
+Satisfactory<br>
+8. How would you rate this course <b>(overall) ?</b><br>
+<input checked="checked" name="overall" tabindex="60" type="radio" value="E">Excellent
+<input name="overall" tabindex="62" type="radio" value="G">Good<input name="overall" tabindex="64" type="radio" value="F">Fair<input name="overall" tabindex="66" type="radio" value="N">Not 
+Satisfactory<br>
+</fieldset>
+<fieldset>
+<legend><i>GENERAL INFORMATION</i></legend>
+9. Was the <b>course outline</b> reviewed/explained  at the begining of your course ?<br>
+<input checked="checked" name="outline" tabindex="68" type="radio" value="E">Yes
+<input name="outline" tabindex="70" type="radio" value="G">No<input name="outline" tabindex="72" type="radio" value="F">Not Sure<br>
+10. Would you <b>recommend</b> this course to a friend with same intersets?<br>
+<input checked="checked" name="recommend" tabindex="68" type="radio" value="E">Yes
+<input name="recommend" tabindex="70" type="radio" value="G">No<input name="recommend" tabindex="72" type="radio" value="F">Not Sure<br>
+</fieldset>
+<fieldset>
+<legend><i>ANY OTHER COMMENTS</i></legend>
+<label>10. What is the <b>best thing</b> about this course?</label>
+<textarea cols="80" name="txtBestThing" rows="7" tabindex="74">--what you liked the most about the course </textarea><br><br>
+<label>11. How would you <b>improve</b>  this course?</label>
+<textarea cols="80" name="txtBestThing" rows="7" tabindex="76">--Please let us know what you like to improve in this course </textarea><br><br>
+<label>12. Other?</label>
+<textarea cols="80" name="txtBestThing" rows="7" tabindex="78">--Any othe comments you would like to make</textarea><br><br>
+<label><input name="btnSubmit" tabindex="80" type="submit" value="Submit Evaluation"></label>
+<input name="btnReset" tabindex="82" type="reset" value="Clear Form">
+
+</fieldset>
+</form>
+</main>
+<footer>
+	<p id="thank"><strong><i>Thankyou! we pay attention to your feedback!!</i></strong></p>
+	<p id="sites">	<a id="" href="https://www.centennialcollege.ca/programs-courses/part-time/l">
+	Centennial College Continuing Eduction Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="mailto:continuingeductaion@centennialcollege.ca">Email Address</a></p>
+	
+	<p id="Copyright" >
+	 &copy;&nbsp;Copyright Ankit Mehra- COMP213
+	<a  href="../index.html"><b>Back to index</b></a></p>
+
+</footer>
+</div>
+</body>
+</html>

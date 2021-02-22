@@ -1,0 +1,67 @@
+body{
+    font-family: 'EB Garamond', serif;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#container {
+	border-style: none; 
+	box-shadow: 6px 6px 6px 6px rgb(101, 138, 101);
+	border-radius: 50px 50px 20px 20px;
+    
+}
+img{
+    width: 245px;
+    height: 250px;
+    float:left
+    
+}
+#heading{
+    text-align: center;
+    vertical-align: center;
+    font-size: 70px;
+    padding-top: 15px;
+    
+}
+#header{
+    border: 5px solid;
+    /* border: 2px solid black; */
+    border-color: rgb(103, 138, 103);
+    height: 249px;
+    background-color: rgba(87, 134, 34, 0.924);
+    border-radius: 13px 13px 15px 13px;
+}
+main{
+    text-align: left;
+    padding-left: 10px;
+    
+}
+label{
+    font-size: 22px;
+}
+input{
+    padding-left: px;
+}
+button {
+    background-color:  rgb(101, 149, 46);
+    border: 2px solid  rgb(81, 107, 81);
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13.5px;
+    font:'EB Garamond', serif;
+    /* font-weight: bold; */
+    border-radius: 5px;
+}
+footer{
+    background-color:  rgb(101, 149, 46);
+    border-radius: 0px 0px 15px 15px;
+    height:29px;
+    text-align: center;
+}
+#table1{
+    width: 600px;
+}

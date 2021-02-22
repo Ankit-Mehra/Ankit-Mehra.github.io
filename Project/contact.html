@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lighthouse Bistro</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+a{
+	color: #3DA5AD
+}
+nav{
+	background-color: #CBEBED; 
+}
+
+label {
+	width: 250px;
+	float: left;
+	text-align: left;
+}
+fieldset {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #61BFC7;
+	padding-bottom: 10px;
+	background-color: #73C8CE;
+}
+legend{
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style:italic;
+}
+input[type=submit]{ margin-left: 150px; }
+input[type=reset]{ margin-left: 100px; }
+</style>
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1><span lang="en-ca">The </span>Beach-House Realtors </h1>
+  </header>
+    <nav>
+	<ul>
+     <li id="page"><a href="home.html"> Home</a></li>
+      <li><a href="listings.html">Active Listings</a></li>
+      <li><a href="Contact.html">&#9990; Contact</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+	 </ul>
+    </nav>
+   <main>
+   <h2><span lang="en-ca">Contact Us For Your Dream Home</span></h2>
+	<p>&nbsp;</p>
+<form method="post" action="mailto:amehra13@mycentennialcollege.ca">
+<fieldset>
+	<legend><span lang="en-ca">Customer</span> Information</legend>
+	<label>First Name:</label><input name="txtFirstName" size="25" tabindex="1" type="text"placeholder="your first name"><br>
+	<label>Last Name:</label><input name="txtLastName" size="25" tabindex="3" type="text" placeholder="your last name"><br>
+	<label>Email:</label><input name="txtEmail" size="30" tabindex="5" type="email"required ="required" placeholder="someone@someplace.ca"><br>
+	<label>Your Contact Number:</label><input name="Phonenumber" tabindex="7" type="tel"  placeholder="xxx-xxx-xxxx"><br>
+	<label>Preferred Date:</label><input name="txtStartDate" tabindex="9" type="date"><br><br>
+</fieldset>
+<fieldset>
+	<legend><span lang="en-ca">Customer </span>Preferences</legend>
+	<label>Property Preference</label><input name="optGender" tabindex="11" type="radio" value="M">House
+									<input name="optGender" tabindex="13" type="radio" value="F">Condiminium	
+	<br><label>Number of Bedrooms :</label><select name="bedroomchoice" style="width: 34px"  tabindex="15" >
+	<option></option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	</select><br>
+	<label>Number of Bathrooms:</label><select name="bathrooms">
+	<option></option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	</select><br>
+	<label>Price Range:</label>  <select name="price range">
+	<option></option>
+	<option>below 10,00,000</option>
+	<option>below 30,00,000</option>
+	<option>below 60,00,000</option>
+	<option>below 90,00,000</option>
+	</select><br>
+	<label>Special Requests:</label><textarea cols="40" name="txtSpecialReq" rows="7" tabindex="17">--Please let us know about your special preferences--</textarea><br>
+</fieldset>
+<label id="button"><input name="btnSubmit" tabindex="19" type="submit" value="Submit Viewing Request"></label>
+<input name="btnReset" tabindex="21" type="reset" value="Clear Form">
+</form>
+   </main>
+   <aside>
+    <figure>
+     <img src="images/realestateguy.jpeg" width="400" height="400" alt="leonardo dicaprio">
+     <br>
+    Leo
+    <br>Phone: (416) 987-6543
+   <br>Email: <a href="mailto:leo@hollwood.ca">leo@hollwood.ca</a>
+    </figure>
+  </aside>
+  <footer>
+	Copyright &copy; 2020
+  </footer>
+ </div>
+</body>
+</html>
+
+

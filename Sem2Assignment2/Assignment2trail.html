@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to create a TABLE, a TR and a TD element.</p>
+<label>Please enter number of rows:</label><input id ="rows" type="number" min="1" tabindex="" >
+<label>Please enter number of columns:</label><input id ="columns" type="number" min="1" tabindex="" >
+<button onclick="drawTable()">Try it</button>
+
+<script>
+    function setTable() {
+        var table = document.createElement("TABLE");
+        table.setAttribute("id" ,"table");
+        document.body.appendChild(table);
+        }
+    function drawTable(){
+        setTable();
+        for(var i =1 ; i<=rows.value; i++)
+        {
+            var row = document.createElement("TR");
+            var idValue = "row-"+i;
+            row.setAttribute("id",idValue);
+            document.getElementById("table").appendChild(row);
+            for(var j =1 ; j<=columns.value; j++)
+            {
+                var column = document.createElement("TD");
+                rowColoumn = document.createTextNode("cell");
+                column.appendChild(rowColoumn);
+                document.getElementById(idValue).appendChild(column);
+            }
+        }
+    }
+</script>
+
+</body>
+</html>s

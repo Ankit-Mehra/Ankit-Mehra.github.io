@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en-ca">
+    <head>
+        <!--
+      A web page to generate table based on user input 
+      Author: Ankit Mehra  
+      Date:   09-Feb-2021
+      Filename: Assignment2
+   -->
+   <meta charset="utf-8" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assignment2Styles.css">
+   <!-- <style>
+    table, td {
+      border: 1px solid black;
+    }
+    </style> -->
+    </head>
+    <body>
+        <div id ="container">
+            <header id="header">
+                <img src="table_selection_cell.png">
+                <h1 id="heading">Generate Tables</h1>
+            </header>
+            <main id="mainElement">
+                <table id = "table1">
+                    <tr>
+                        <td>
+                            <label>Please enter number of rows:</label>
+                        </td>
+                        <td>
+                            <input id ="rows" type="number" min="1" tabindex="2" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Please enter number of column:</label>
+                        </td>
+                        <td>
+                            <input id ="columns" type="number" min="1" max ="26" tabindex="4" >
+                        </td>
+                    </tr>
+                    <tr><td colspan="2" style="text-align: right"><button id="drawTable" tabindex="6">Click to generate a table</button></td></tr>
+                    <tr><td colspan="2" style="text-align: right;"><button id ="reset" type="reset" tabindex="8">Reset Table</button></td></tr>
+                </table>
+                <!-- <button id="drawTable" tabindex="6">Click to generate a table</button><br><br>
+                <button id ="reset" type="reset" tabindex="8">Reset Table</button> -->
+            </main>
+            <footer>
+                <h3>Copyright&copy;Ankit Mehra-2021</h3><a href= "../index.html">Back to home</a>
+            </footer>
+        </div>
+        <script src ="assign2Script.js"></script>
+        <link href="assignment2Styles.css">
+    </body>
+</html>

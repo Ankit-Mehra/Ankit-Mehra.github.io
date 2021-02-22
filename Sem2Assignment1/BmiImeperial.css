@@ -1,0 +1,119 @@
+/*<!--
+            Body Mass Index(BMI) Calculator
+            Author -- Ankit Mehra
+            Date 1 Feb 2021
+
+            File name: BmiImperial.css
+        --> 
+*/
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    max-width: 986px;
+    background-color: #A4DBDF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+header{
+    text-align: center;
+    font-size: 23px;
+    background-color: #48B7BF;
+    height:160px;
+    border-radius: 50px 50px;
+    
+    
+}
+#container {
+	border-style: none;
+	box-shadow: 3px 3px 6px 6px #61BFC7;
+	border-radius: 10px 10px 20px 20px;
+	background-color: #48B7BF;
+}
+
+form
+{
+    background-color: #48B7BF;
+    font-size:23px;
+
+}
+
+/* style to configure the navigation*/
+nav{
+    
+    text-decoration-style: none;
+    font-size: 25px;
+    height:705px;
+    max-width:180px;
+    float:left;
+    background-color: #48B7BF;
+    
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    float:left;
+    padding-left: 0px;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 20px;  
+}
+nav a:hover{
+    color:rgb(251, 247, 13); 
+}
+#metric a:hover{
+    color:rgb(135, 7, 226);
+}
+#imperial a:visited{
+    color:rgb(251, 247, 13); 
+}
+footer {
+	background-color: #48B7BF;
+	font-size: 70%;
+	text-align: center;
+	padding: 0.5em 0;
+	color: white;
+	box-shadow: 5px 5px 5px 5px #61BFC7;
+    border-radius: 0px 0px 20px 20px;
+    font-size:20px;
+    max-width: 986px;
+}
+fieldset{
+    border-radius: 15px;
+	box-shadow: 2px 2px 2px #61BFC7;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #73C8CE;
+    max-width: 760px;
+    float:right;
+}
+fieldset ul {
+    list-style: none;
+}
+
+#imperialField{
+    color:yellow;
+}
+legend{
+    text-align: center;
+    color:yellow;
+}
+#weight{
+    max-width:300px ;
+}
+#pound{
+    max-width:50px;
+}
+#estImperial{
+    color:rgb(251, 247, 13);
+}
+#estImperialTEE{
+    color:rgb(251, 247, 13);
+}

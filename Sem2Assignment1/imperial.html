@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <!--
+            Body Mass Index(BMI) Calculator
+            Author -- Ankit Mehra
+            Date 1 Feb 2021
+
+            File name: Assignment1.html
+        -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+        <title>Basal Metabolic Rate(BMR) Calculator</title>
+        <link rel="stylesheet" href="BmiImeperial.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "container">
+            <header>
+                <h1>Basal Metabolic Rate&nbsp;(BMR) Calculator<br>Harris–Benedict Method</h1>
+            </header>
+            
+            <nav>
+                <ul>  
+                    <li id ="metric "tabindex="1"><a  href="Assignment1.html">METRIC SYSTEM</a></li>
+                    <li id ="imperial" tabindex="2"><a  href="imperial.html">IMPERIAL SYSTEM</a></li>
+                </ul>
+            </nav>
+            <form>
+                <fieldset>  
+                    <legend id= "imperialField"><u>IMPERIAL BMR CALCULATOR</u></legend>  
+                    <fieldset id="genderAge">
+                        <legend>Gender/Age</legend>
+                        <label for="Gender">Gender</label><select id = "genderImperial" name="Gender" style ="width:fit-content" tabindex="6">
+                            <option>Male</option>
+                            <option>Female</option></select>
+                        <label for="age">Age</label><input id = "ageImperial" type="number" name="number" min="0" max="100" value="0" tabindex="7">
+                    </fieldset id="height">
+                    <fieldset>
+                        <legend>Height</legend>
+                        <label>Feet:</label><input id="heightFeet"type="number" name="number" min="0" max="7" value="0" tabindex="4" >
+                        <label>Inches:</label><input id="heightInches" type="number" name="number" min="0" max="11" value="0" tabindex="5" >
+                    </fieldset> 
+                    <fieldset id="weight">
+                        <legend>Weight</legend>
+                        <label>In Pounds:</label><input id="pound" type="number" name="number" min="0" value="0" size="3" tabindex="3">
+                    </fieldset>
+                    <fieldset id="activity">
+                        <legend>Select Activity Level For TEE Calculation</legend>
+                        <ul id="activity">
+                            <li><input id="SedentaryImperial" name = "activityImp" type="radio" tabindex="8"><label>Sedentary or light activity&nbsp;(Office worker getting little or no exercise)</label></li>
+                            <li></li><input id ="activeImperial" name = "activityImp" type="radio" tabindex="9"><label>Active or moderately active&nbsp;(Construction worker or person running one hour daily)</label></li>
+                            <li></li><input id ="veryactiveImperial" name = "activityImp" type="radio" tabindex="10" ><label>Vigorously active&nbsp;(Agricultural worker (non mechanized) or person swimming two hours daily)</label></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset id="calculation">
+                        <legend>Calculations</legend>
+                        <label id="calBMR">Calculate BMR&nbsp;</label><input id = "calbmrImperial" type="button" value="Calculate BMR " tabindex="11">
+                        &nbsp;&nbsp;&nbsp;&nbsp;<label id ="calTEE">Calculate Total Energy Expenditure(TEE)&nbsp;</label><input tabindex="12" id = "calTeeImperial" type="button" value="Calculate TEE ">
+                        <p>Your BMR is=<span id="estImperial"></span></p>
+                        <p>Yoyr TEE is=<span id="estImperialTEE"></span></p>
+                    </fieldset>
+                </fieldset>
+            </form> 
+            <footer>
+                Copyright &copy; <a href="http://studentweb.cencol.ca/amehra13/" target="_blank">2021-Ankit Mehra&nbsp;</a>
+                 <a href="https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation" target="_blank">Wikipedia&nbsp;Reference</a>
+            </footer>
+        </div>
+        <script src="bmrImperial.js"></script>
+    </body>
+</html>
