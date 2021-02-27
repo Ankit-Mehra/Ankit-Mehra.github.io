@@ -1,0 +1,32 @@
+body{
+    font-family: 'Monoton', cursive;
+    background-color: rgb(54, 54, 54);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    font-size: 17px;
+    padding-top:5px;
+    clear: both;
+    background: rgb(54, 54, 54);
+    color: rgb(236, 124, 19);
+    height: 60px;
+ }
+ 
+ footer div {
+    text-align: center;
+ }
+ 
+ footer div:hover {
+    cursor: default;
+ }
+ 
+ footer div p {
+    display: inline-block;
+ }

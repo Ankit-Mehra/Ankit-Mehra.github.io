@@ -1,0 +1,146 @@
+/*  
+    Photo gallery
+    Author: Ankit Mehra
+ *  Date:   23-Feb-2021
+    Filename: assignment3Styles.css
+*/
+body{
+    font-family: 'Monoton', cursive;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgb(54, 54, 54)
+}
+
+header{
+    background-color: rgb(250, 218, 77);
+    text-align: center;
+    border-radius: 8px;
+    height: 85px;
+}
+header h1 {
+    color: rgb(236, 124, 19);
+    font-size:45px ;
+    text-align: center;
+    vertical-align: 42px;
+ }
+
+ article {
+    position: relative;
+ }
+
+ figure{
+     position: absolute;
+     border: black;
+     padding-top: 0px;
+     box-shadow:         3px 0px 5px rgb(228, 139, 56),
+                        -3px 0px 5px rgb(228, 139, 56);
+ }
+ #fig2{
+     z-index: 5;
+     left: 8%;
+     top: 34px;
+ }
+ #fig3{
+     z-index:15;
+     left: 50%;
+     margin-left: -290px;
+     top: 0px;
+ }
+ #fig4{
+     z-index: 5;
+     right: 8%;
+     top: 34px;
+ }
+ #leftarrow, #rightarrow {
+    background:rgb(250, 218, 77);
+    color: rgb(236, 124, 19);
+    position: absolute;
+    z-index: 15;
+    text-align: center;
+    height: 135px;
+    width: 40px;
+    top: 120px;
+    font-weight: bold;
+    border: solid rgb(238, 202, 41);
+ }
+ #leftarrow p, #rightarrow p {
+    position: relative;
+    top: 50%;
+    margin-top: -0.5em;
+ }
+ #leftarrow {
+    left: 0;
+ }
+ 
+ #rightarrow {
+    right: 0;
+    
+ }
+ #fiveButton {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    color: rgb(236, 124, 19);
+    text-align: center;
+ }
+ 
+ #fiveButton p {
+    width: 20%;
+    margin: 0 auto;
+    line-height: 2.5em;
+    background: rgb(250, 218, 77);
+    border: solid rgb(238, 202, 41);
+    font-weight: bold;
+ }
+
+ #newArticle{
+     padding-left: 65px;
+     top:700px;
+     display: grid;
+     grid-template-columns: 170px 170px 170px 170px 170px;
+     grid-template-rows: 130px;
+ }
+ #newArticle figure{
+     position: relative;
+ }
+ #favImages{
+    display: block;
+    width: 100%;
+    top:740px;
+    position: absolute;
+    color: rgb(236, 124, 19);
+    text-align: center;
+ }
+ #favImages p{
+    width: 20%;
+    margin: 0 auto;
+    line-height: 2.5em;
+    background: rgb(250, 218, 77);
+    border: solid rgb(238, 202, 41);
+    font-weight: bold;
+ }
+ #removeButton{
+   width: 20%;
+   margin: 0 auto;
+   line-height: 2.5em;
+   color: rgb(236, 124, 19);
+   background: rgb(250, 218, 77);
+   border: solid rgb(238, 202, 41);
+   font-weight: bold;
+ }
+ #foot{
+   position:relative;
+   top: 760px;
+   color:rgb(236, 124, 19);
+   background-color:rgb(250, 218, 77);
+   border-radius: 15px 15px 15px 15px;
+   text-align: center;
+   height: 70px;
+   width: 960px;
+}
+a{
+   color:rgb(19, 138, 236);;
+}
