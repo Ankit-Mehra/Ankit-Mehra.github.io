@@ -1,0 +1,115 @@
+body{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 750px;
+	background-color: rgb(255, 255, 255);
+}
+h1{
+	padding-top: 25px;
+	padding-right:55px;
+	font-family: 'Playfair Display', serif;
+	color: rgb(20, 65, 83);	
+	text-align: right;
+	font-size: 50px;
+}
+header{
+	background-image: url(registration-icon-png-6.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 175px 175px;
+	height: 180px;
+	/* background-color:rgb(251, 165, 141) ; */
+}
+p{
+	text-align: center;
+	font-size:26px;
+}
+#errorText
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 475px;
+	text-align: left;
+	padding-left: 5px;
+	border-radius: 15px;
+	font-style: italic;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+#fields{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 720px;
+	font-size: larger;
+	font-family: 'Playfair Display', serif;
+	border-radius: 25px;
+	background-color: rgb(79, 204, 216);
+	color: rgb(20, 65, 83);	
+}
+fieldset{
+	border:0;
+}
+input{
+	padding:15px;
+	border:0;
+	/* box-shadow:0 0 2px 2px rgb(231, 227, 227); */
+	border-radius: 20px;
+	width: 350px;
+	margin: 5px;
+	background-color: rgb(224, 248, 250);
+  }
+
+.rounded-input {
+	padding:10px;
+	border-radius:10px;
+}
+button{
+	padding:15px;
+	border:none;
+	background-color:rgb(23, 94, 122);	
+	color:#fff;
+	/* font-weight:600; */
+	border-radius:17px;
+	width:300px;
+	margin: 5px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: white;
+}
+button:hover{
+	background-color:rgb(5, 57, 78);
+	font-size:125%;	
+}
+
+#postalErrorText, #provinceErrorText,
+#ageErrorText, #passwordMatchErrorText, #passwordErrorText,
+#emailErrorText
+{
+	/* margin-left: auto;
+	margin-right: auto; */
+	max-width: 600px;
+	text-align: right;
+	padding-left: 5px;
+	border-radius: 15px;
+	font-size:small;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+footer{
+	text-align: center;
+	font-size: small;
+}
+a{
+	text-decoration: none; 
+	color: rgb(20, 65, 83);	
+}
+a:hover{
+	background-color:rgb(23, 94, 122);
+	color:white;
+	font-size:120%;
+	border-radius:5px;	
+}
